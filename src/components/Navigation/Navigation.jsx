@@ -1,4 +1,6 @@
-export const Navigaton = () => (
+import './Navigation.css';
+
+const Navigation = () => (
   <nav className="navigation">
     <a className="navigation__link" href="#about">
       About
@@ -11,3 +13,5 @@ export const Navigaton = () => (
     </a>
   </nav>
 );
+
+export default Navigation;
